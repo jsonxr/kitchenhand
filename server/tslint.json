@@ -1,0 +1,13 @@
+{
+  "defaultSeverity": "error",
+  "extends": ["tslint:recommended"],
+  "jsRules": {},
+  "rules": {
+    "interface-name": [true, "never-prefix"],
+    "arrow-parens": [false],
+    "object-literal-sort-keys": [false],
+    "max-line-length": [true, { "limit": 120, "ignore-pattern": "^import |^export {(.*?)}" }],
+    "quotemark": [true, "single", "avoid-escape", "avoid-template"]
+  },
+  "rulesDirectory": []
+}
